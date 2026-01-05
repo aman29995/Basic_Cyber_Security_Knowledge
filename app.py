@@ -63,6 +63,7 @@ if st.session_state.role == "SOC Analyst":
         st.metric("Total Score", get_score())
 
 # ---- VM GAME FLOW ----
+st.session_state.vm_level = 1
 if st.session_state.role == "VM Lead":
 
     if menu == "🛡️ VM Games":
