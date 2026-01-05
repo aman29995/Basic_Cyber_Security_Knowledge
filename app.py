@@ -217,4 +217,4 @@ if st.session_state.role == "VM Lead":
                     st.warning("Metrics lack business context.")
 
                 st.balloons()
-                st.success("🎉 VM Program Comple
+                st.success("🎉 VM Program Completed!")
